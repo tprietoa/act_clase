@@ -3,7 +3,7 @@ name: Main Terraform Trigger
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   call-terraform-workflow:
